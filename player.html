@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="player.css" rel="stylesheet" type="text/css" />
+  <title>Mi Reproductor</title>
+</head>
+
+<body>
+  <div class="player">
+    <div class="player__header">
+      <div class="player__img player__img--absolute slider">
+        <button class="player__button player__button--absolute--nw playlist">
+          <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon" />
+        </button>
+        <button class="player__button player__button--absolute--center play">
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon" />
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon" />
+        </button>
+        <div class="slider__content">
+          <img class="img slider__img" src="imagenes/Drivers_License_by_Olivia_Rodrigo.png" alt="cover" />
+          <img class="img slider__img" src="imagenes/not about.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/morat y juanes.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/negro cirilo.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/redimi2.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/god-plan.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/bruno_mars_that_s_what_i_like-195110995-mmed.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/lana-del-rey-young-beautiful-from-gatsby-copie-2.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/rata blanca la leyenda.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/my chemical romance.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/I dont want to set the world on Fire  The Ink Spots.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/Stray Kids Youtiful.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/Brent Faiyaz  JACKIE BROWN.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/Papa_roach_she_loves_me_not.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/system of a down.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/believer imagine dragons.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/quevedo columbiaa.webp" alt="cover" />
+          <img class="img slider__img" src="imagenes/TINI - Consejo de Amor.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/Los Ángeles Azules - Acaríñame feat. J.png" alt="cover" />
+          <img class="img slider__img" src="imagenes/Niña Bonita, Binomio De Oro De América.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/MODELITO MORAaa.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/Ulala ~ Khannon.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/heroes del silencio.jpg" alt="cover" />
+          <img class="img slider__img" src="imagenes/viva-la-vida-1.webp" alt="cover" />
+        </div>
+      </div>
+
+      <div class="player__controls">
+        <button class="player__button back">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon" />
+        </button>
+        <p class="player__context slider__context">
+          <strong class="slider__name"></strong>
+          <span class="player__title slider__title"></span>
+        </p>
+        <button class="player__button next">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon" />
+        </button>
+        <div class="progres">
+          <div class="progres__filled"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="player__playlist list">
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/Drivers_License_by_Olivia_Rodrigo.png" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Drivers License</b>
+          <span class="flex">
+            <span class="player__title">Olivia Rodrigo</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audios/y2mate.com - Olivia Rodrigo  drivers license Official Video.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/not about.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Not about angels</b>
+          <span class="flex">
+            <span class="player__title">Birdy</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="/audios/y2mate.com - Birdy  Not About Angels from The Fault In Our Stars Soundtrack Official Video.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/morat y juanes.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">506</b>
+          <span class="flex">
+            <span class="player__title">Morat y Juanes</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audios/y2mate.com - Morat Juanes  506.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/negro cirilo.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Negro cirirlo</b>
+          <span class="flex">
+            <span class="player__title">Tavo the producer</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audios/y2mate.com - Negro Cirilo.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/redimi2.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Redimi2</b>
+          <span class="flex">
+            <span class="player__title">A danzar</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="audios/y2mate.com - Barak ft Redimi2   A Danzar  Video Oficial  Radical Live.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/god-plan.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Drake</b>
+          <span class="flex">
+            <span class="player__title">God's plan</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Drake  Gods Plan.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/bruno_mars_that_s_what_i_like-195110995-mmed.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Bruno Mars</b>
+          <span class="flex">
+            <span class="player__title">That what I like</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Bruno Mars  Thats What I Like Official Music Video.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/lana-del-rey-young-beautiful-from-gatsby-copie-2.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Young Beautiful</b>
+          <span class="flex">
+            <span class="player__title">Lana Del Rey</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Young  Beautiful  Lana Del Rey DH Orchestral Version.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/rata blanca la leyenda.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">La Leyenda del Hada y el Mago</b>
+          <span class="flex">
+            <span class="player__title">Rata Blanca</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Rata Blanca  La Leyenda Del Hada Y El Mago Audio.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/my chemical romance.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Dead!</b>
+          <span class="flex">
+            <span class="player__title">My Chemical Romance</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - My Chemical Romance  Dead.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/I dont want to set the world on Fire  The Ink Spots.jpg"
+          alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">I dont want to Set The World on Fire</b>
+          <span class="flex">
+            <span class="player__title">The Ink Spots</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="audios/y2mate.com - I dont want to set the world on Fire  The Ink Spots LetraLyrics.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/Stray Kids Youtiful.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Youtiful</b>
+          <span class="flex">
+            <span class="player__title">Stray Kids</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Stray Kids Youtiful Video.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/Brent Faiyaz  JACKIE BROWN.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">JACKIE BROWN</b>
+          <span class="flex">
+            <span class="player__title">Brent Faiyaz</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Brent Faiyaz  JACKIE BROWN Official Audio.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/Papa_roach_she_loves_me_not.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Papa Roach</b>
+          <span class="flex">
+            <span class="player__title">She Loves Me Not</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Papa Roach  She Loves Me Not.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/system of a down.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Shop suey</b>
+          <span class="flex">
+            <span class="player__title">system of de down</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - System Of A Down  Chop Suey Official HD Video.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/believer imagine dragons.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Imagine dragons</b>
+          <span class="flex">
+            <span class="player__title">Believer</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Imagine Dragons  Believer Official Music Video.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/quevedo columbiaa.webp" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Quevedo</b>
+          <span class="flex">
+            <span class="player__title">Columbia</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Quevedo  Columbia Letra.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/TINI - Consejo de Amor.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Tini</b>
+          <span class="flex">
+            <span class="player__title">Consejo de amor</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - TINI  Consejo de Amor Official Video ft Morat.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/Los Ángeles Azules - Acaríñame feat. J.png" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Los Angeles azules</b>
+          <span class="flex">
+            <span class="player__title">Acariñame</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - TINI  Consejo de Amor Official Video ft Morat.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/Niña Bonita, Binomio De Oro De América.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Binomio de oro</b>
+          <span class="flex">
+            <span class="player__title">Niña Bonita</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Niña Bonita Binomio De Oro De América  Video Oficial.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/MODELITO MORAaa.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Mora</b>
+          <span class="flex">
+            <span class="player__title">Modelito</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Mora YOVNGCHIMI  MODELITO Video Oficial.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/Ulala ~ Khannon.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Khannon</b>
+          <span class="flex">
+            <span class="player__title">Ulala</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Ulala  Khannon.mp3"></audio>
+      </li>
+
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="imagenes/heroes del silencio.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Maldito Duende</b>
+          <span class="flex">
+            <span class="player__title">Heroes del Silencio</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audios/y2mate.com - Héroes del Silencio  Maldito duende.mp3"></audio>
+      </li>
+
+    </li>
+    <li class="player__song">
+      <img class="player__img img" src="imagenes/viva-la-vida-1.webp" alt="cover" />
+      <p class="player__context">
+        <b class="player__song-name">Coldplay</b>
+        <span class="flex">
+          <span class="player__title">Viva la vida</span>
+          <span class="player__song-time"></span>
+        </span>
+      </p>
+      <audio class="audio" src="audios/y2mate.com - Coldplay  Viva La Vida Official Video.mp3"></audio>
+    </li>
+
+  </li>
+  <li class="player__song">
+    <img class="player__img img" src="imagenes/Lisboa quevedo ailoviuu.jpg" alt="cover" />
+    <p class="player__context">
+      <b class="player__song-name">Quevedo</b>
+      <span class="flex">
+        <span class="player__title">Lisboa</span>
+        <span class="player__song-time"></span>
+      </span>
+    </p>
+    <audio class="audio" src="audios/y2mate.com - 14 LISBOA  Quevedo  DONDE QUIERO ESTAR.mp3"></audio>
+  </li>
+
+</li>
+<li class="player__song">
+  <img class="player__img img" src="imagenes/Quevedo, Eladio Carrion & Myke Towers - De La Noche A La Mañana.jpg" alt="cover" />
+  <p class="player__context">
+    <b class="player__song-name">Quevedo</b>
+    <span class="flex">
+      <span class="player__title">De la noche a la mañana </span>
+      <span class="player__song-time"></span>
+    </span>
+  </p>
+  <audio class="audio" src="audios/y2mate.com - Quevedo Eladio Carrion  Myke Towers  De La Noche A La Mañana Music Video Prod By Last Dude (1).mp3"></audio>
+</li>
+
+</li>
+<li class="player__song">
+  <img class="player__img img" src="imagenes/Ahora Y Siempre - Quevedo, Linton.jpg" alt="cover" />
+  <p class="player__context">
+    <b class="player__song-name">Quevedo</b>
+    <span class="flex">
+      <span class="player__title">Ahora Y Siempre</span>
+      <span class="player__song-time"></span>
+    </span>
+  </p>
+  <audio class="audio" src="audios/y2mate.com - Ahora Y Siempre  Quevedo Linton.mp3"></audio>
+</li>
+
+</li>
+<li class="player__song">
+  <img class="player__img img" src="imagenes/Sin Señal - Quevedo, Ovy On The Drums.jpg" alt="cover" />
+  <p class="player__context">
+    <b class="player__song-name">Quevedo</b>
+    <span class="flex">
+      <span class="player__title">Sin señal</span>
+      <span class="player__song-time"></span>
+    </span>
+  </p>
+  <audio class="audio" src="audios/y2mate.com - Sin Señal  Quevedo Ovy On The Drums.mp3"></audio>
+</li>
+
+</li>
+<li class="player__song">
+  <img class="player__img img" src="imagenes/Me Dejó Solito Jorge Celedón Letra.jpg" alt="cover" />
+  <p class="player__context">
+    <b class="player__song-name">Jorge Celedon</b>
+    <span class="flex">
+      <span class="player__title">Me dejo solito</span>
+      <span class="player__song-time"></span>
+    </span>
+  </p>
+  <audio class="audio" src="audios/y2mate.com - Me Dejo Solito Jorge Celedon Letra.mp3"></audio>
+</li>
+
+
+    </ul>
+  </div>
+  <script src="/player.js"></script>
+</body>
+
+
+<div id="progressBar"></div>
+<div id="progressBarContainer"></div>
+
+</html>
